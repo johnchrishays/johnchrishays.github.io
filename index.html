@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Chris Hays</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="fa/css/all.css" rel="stylesheet">
   <style>
     body {
       font-family: 'Roboto', sans-serif;
@@ -32,6 +33,19 @@
     p {
       line-height: 1.5em;
     }
+    .fa, .fab {
+      font-size: 30px;
+      text-align: center;
+      text-decoration: none;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Add a hover effect if you want */
+    .fa:hover, .fab:hover {
+      opacity: 0.7;
+    }
   </style>
 
   <!-- CSS  -->
@@ -49,7 +63,14 @@
   <div class="content">
     <div style="">
       <div style="width: 100%; padding-right: 5%; border: 0; margin: 0;">
-        <img src="chrishays.jpg" alt="Chris Hays" style="width:30%; height: 100%; float: right; margin: 0 0 1em 2em;">
+        <div style="float: right; margin: 0 0 1em 2em; width:35%;">
+          <img src="chrishays.jpg" alt="Chris Hays" style="width:100%; height: 100%;">
+          <div style="clear: both; width: 100%; display: flex; justify-content: space-evenly; margin-top: 20px;">
+            <a href="https://github.com/johnchrishays/" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/chris-hays-47aa80132/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.computationsociety.org/" target="_blank"><i class="fa fa-pen"></i></a>
+          </div>
+        </div>
         <p>
           Hello! I'm a Research Affiliate of the <a href="https://computationsociety.yale.edu/" target="_blank">Computation and Society Initiative</a> at Yale. I recently graduated from Yale with a degree in computer science.
         </p>
@@ -65,7 +86,7 @@
 
         <p>I am very excited about the <a href="https://computationsociety.org/" target="_blank">Computation and Society</a> blog that I helped start and to which I regularly contribute. The blog addresses foundational questions that arise as algorithms and data-driven technologies permeate and alter various aspects of modern society.</p>
 
-        <p>I have also written about <a href="https://medium.com/@johnchrishays/deepfake-detection-with-transformer-based-architectures-in-pytorch-f057a037bbaf">detecting deepfakes using transformers</a>, <a href="http://features.yaledailynews.com/blog/2017/11/12/god-the-left-at-yale/">left-leaning faith-based activism in New Haven</a>, and <a href="http://www.thenewjournalatyale.com/2017/02/yale-men-cabinet/">Ben Carson's time at Yale</a>.</p>
+        <p>I have also written about <a href="https://medium.com/@johnchrishays/deepfake-detection-with-transformer-based-architectures-in-pytorch-f057a037bbaf">detecting deepfakes using transformers</a>, <a href="http://features.yaledailynews.com/blog/2017/11/12/god-the-left-at-yale/">progressive faith-based activism in New Haven</a>, and <a href="http://www.thenewjournalatyale.com/2017/02/yale-men-cabinet/">Ben Carson's time at Yale</a>.</p>
       </div>
   </body>
 </html>
